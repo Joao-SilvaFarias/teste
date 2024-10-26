@@ -1,6 +1,6 @@
 from tkinter import *
 
 janela = Tk()
-janela.title("velho")
+janela.title("commito")
 
 janela.mainloop()
