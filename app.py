@@ -1,6 +1,10 @@
-from tkinter import *
+n = int(input("Digite um número para calcular seu fatorial: "))
 
-janela = Tk()
-janela.title("novo new joao")
+c = n
+s = n
 
-janela.mainloop()
+while c > 1:
+    n *= (c-1)
+    c -= 1
+
+print(f"O número {s} fartorial é igual a {n}.")   
